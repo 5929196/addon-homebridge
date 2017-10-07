@@ -1,6 +1,6 @@
 FROM %%BASE_IMAGE%%
 #FROM homeassistant/armhf-base:latest
-MAINTAINER Franck Nijhof <frenck@geekchimp.com>
+#MAINTAINER Franck Nijhof <frenck@geekchimp.com>
 
 # Add env
 ENV LANG="C.UTF-8"
