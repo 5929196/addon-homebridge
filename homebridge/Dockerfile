@@ -1,5 +1,9 @@
 FROM %%BASE_IMAGE%%
 #FROM homeassistant/armhf-base:latest
+#armhf:FROM bestlibre/armhf-debian-base:stretch
+#aarch64:FROM bestlibre/aarch64-debian-base:stretch
+#amd64:FROM debian:stretch
+#i386:FROM i386/debian:stretch
 #MAINTAINER Franck Nijhof <frenck@geekchimp.com>
 
 # Add env
