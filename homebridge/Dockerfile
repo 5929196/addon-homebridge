@@ -1,4 +1,6 @@
-FROM %%BASE_IMAGE%%
+ARG BUILD_FROM
+FROM $BUILD_FROM
+#FROM %%BASE_IMAGE%%
 #FROM homeassistant/armhf-base:latest
 #armhf:FROM bestlibre/armhf-debian-base:stretch
 #aarch64:FROM bestlibre/aarch64-debian-base:stretch
